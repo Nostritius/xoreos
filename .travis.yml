@@ -78,3 +78,11 @@ notifications:
     on_success: change
     on_failure: always
     use_notice: true
+
+deploy:
+  provider: releases
+  api_key:
+    secure: mX4FE1jDRGoa65K0E5DyhZHTZzQ750WC6shghMWehZX7VAd3r/+LRSLE7P5xVVh+K7FvpR1FG+C5UcGzNsy8GBCk0Am6IoKfjs1TPsyA16VJ93nTL6fdzzyvvpWPlmJuuOEEDt+iRFvHtXE/yqNy+q9ekjUvH49H1RRpuFQdvjFMmEv5sdaWzivcQc4fv6p1rTLgJeY7zJOY8rGjB6n1ev/A6lLHZQSnl7OnonLDpuawsMMWl34cJu0MBVrRwIAIgSO6eylCHWvPDa9vgUUM4ipzT2j+QB2RedwPDrRWC5pZro81JccoZvQh+9MMltU0LZUlrQAkDYE65ss10+Lo2PPoeWBf7L3b2gWKx42rf0MDUBUkWj1+odBMc3eNHdXGEs/CKUhn3Zwb9vgemOCdgoYXWaKkLhnbnNqe1spcZ2bJe0oiZ72P9TeFzcnBP/T28zpr/3R6lXs0L95e8A026yTWhdonmNOt+d1ciueSldnkuQ3iZqyIQOC/guIOUGiX8KiF97CcWP9yYwhC46BFuymLHrV1yO3Zm+EQUdvyRQ6EaQumNf5c0Q2/I/q7Brn6IgDHC3IbO6UaUvGn3VJvzqt+VCdtG8zD60jQZWVtEm1MkPZXhMYml5hykEWndV/VpckZ/y2Yab4O7uTc15eOARAXV0vqrpzA3FD5XSb6EPc=
+  file: 'AUTHORS'
+  on:
+    branch: master
